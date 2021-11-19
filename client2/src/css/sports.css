@@ -1,0 +1,46 @@
+.logo{
+    width: 15%;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #ff8400b2 !important;
+    border-color: #ff84005d !important;
+  }
+
+.btn-primary:focus{
+    box-shadow: 0 0 0 0.25rem #ff840079;
+}
+
+.bton:hover{
+    background-color: #ffa077 !important;
+    color: #fff !important;
+    background-color: #ff84007a !important;
+    border-color: #ff84008f !important;
+}
+
+.form-control:focus {
+    border-color: #ff8500 !important;
+    box-shadow: 0 0 0 0.25rem #ff840075 !important;
+}
+
+@media (max-width: 992px){
+    .redes img{
+        width: 60px;
+        margin: 0.03rem;
+    }
+}
+
+
+@media (max-width: 768px){
+    .redes img{
+        width: 80px;
+        margin: 0.03rem;
+    }
+}

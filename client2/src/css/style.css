@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.logo{
+    width: 15%;
+}
+
+.section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    background-color: #ff8400e0 !important;
+}
+
+.texto {
+    color: black;
+    font-size: 200%;
+}
+
+.card:hover {
+    background-color: #ff8400bb !important;
+}
+
+.about{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 5px;
+    background-color: #ff8400bb;
+}
+
+@media (max-width: 768px){
+    .card{
+        width: 180px;
+    }
+}
